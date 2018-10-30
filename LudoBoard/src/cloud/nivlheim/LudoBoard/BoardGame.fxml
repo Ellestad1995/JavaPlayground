@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="1024.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cloud.nivlheim.LudoBoard.Controller">
+   <children>
+      <ImageView fx:id="ludoimg" fitHeight="722.0" fitWidth="722.0" onTouchPressed="#coordinate" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
